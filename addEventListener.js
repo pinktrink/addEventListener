@@ -1,0 +1,1 @@
+;(function(){var$=(window.addEventListner||false);if(!$)$=function(a,b,c){a.attachEvent("on"+b,function(e){var d=e||window.event;return c.call(a,d)})}})();
