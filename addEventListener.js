@@ -1,1 +1,1 @@
-;(function(){var$=(window.addEventListner||false);if(!$)$=function(a,b,c){a.attachEvent("on"+b,function(e){var d=e||window.event;return c.call(a,d)})}})();
+;(function(){if(!window.addEventListener)window.prototype.addEventListener=function(a,b,c){a.attachEvent("on"+b,function(e){var$=e||window.event;return c.call(a,$)})}})();
